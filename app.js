@@ -66,6 +66,22 @@ angular.module('myApp', ['ngRoute'])
     this.getLivros = function(){
         return [{nome:'Como Eu Era Antes de Você'},
             {nome:'A sereia'},
+            {nome:'Quatro Vidas de Um Cachorro'},
+            {nome:'Diário de Um Banana: Vai Ou Racha'},
+            {nome:'Por Que Fazemos o Que Fazemos?'},
+            {nome:'A Garota no Trem'},
+            {nome:'O Orfanato da Srta. Peregrine Para Crianças Peculiares'},
+            {nome:'Como Eu Era Antes de Você'},
+            {nome:'Rita Lee – Uma Autobiografia'},
+            {nome:'Harry Potter e a Criança Amaldiçoada'},
+            {nome:'O Nome da Rosa'},
+            {nome:'Diário de Anne Frank'},
+            {nome:'Dom Casmurro'},
+            {nome:'O Senhor dos Anéis'},
+            {nome:'Grande Sertão Veredas'},
+            {nome:'Cem Anos de Solidão'},
+            {nome:'Ansiedade 2 – Autocontrole'},
+            {nome:'Não se enrola, não'},
             {nome:'Belo Sacrifício - Irmãos Maddox'}
         ];
     }
