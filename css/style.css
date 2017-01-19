@@ -1,0 +1,50 @@
+body {
+  background: #310f32 !important;
+}
+.panel-default {
+	margin: 200px auto 0 auto !important;
+}
+.panel-default {
+	margin: 10px auto 0 auto;
+}
+.panel-heading {
+	background: #6d4871 !important;
+	margin-bottom: 0;
+	font-size: 18px;
+	color: #faecfb !important;
+
+}
+.panel-body {
+	background: #f1f1f2;
+	padding: 20px !important;
+}
+input.form-control {
+	border: 1px solid #e7e7e7 !important;
+	background: #f0eef1;
+	color: #b4b2b5;
+	font-weight: bold;
+	outline: none !important;
+}
+.glyphicon{
+	color: #b4b2b5;
+}
+form .btn {
+	background: #704c76;
+	color: #f5dff6;
+	border: none;
+	margin-right: 10px;
+	font-weight: bold;
+}
+form .btn:hover {
+	background: #6d4871;
+	color: #f5dff6;
+}
+form a {
+	color: #989898;
+	text-decoration: none;
+}
+.btn.sair {
+	color: #f5dff6;
+	float: right;
+}
+

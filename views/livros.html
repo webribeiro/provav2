@@ -1,0 +1,25 @@
+    <div class="container">
+          <div class="row">
+            <div class="col-sm-12 tit">
+
+            <div class="panel panel-default">
+              <div class="panel-heading">Livros
+                <a (click)="logout()" href="/#!/login" class="btn sair">Sair</a>
+              </div>
+              <div class="panel-body">
+
+                <div class="form-group  has-feedback">
+                  
+                  <input type="text" class="form-control" placeholder="BUSCA" ng-model="search">
+                  <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+                </div>
+                
+              <hr>
+                <ul ng-repeat="livro in livros | filter : search | orderBy:'nome'">
+                  <li>{{livro.nome | uppercase}}</li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
